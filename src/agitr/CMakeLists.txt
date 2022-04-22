@@ -140,7 +140,7 @@ add_executable(subpose src/subpose.cpp)
 add_executable(count src/count.cpp)
 add_executable(once src/once.cpp)
 add_executable(throttle src/throttle.cpp)
-
+add_executable(anon src/anon.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -162,6 +162,7 @@ target_link_libraries(subpose ${catkin_LIBRARIES})
 target_link_libraries(count ${catkin_LIBRARIES})
 target_link_libraries(once ${catkin_LIBRARIES})
 target_link_libraries(throttle ${catkin_LIBRARIES})
+target_link_libraries(anon ${catkin_LIBRARIES})
 
 #############
 ## Install ##
