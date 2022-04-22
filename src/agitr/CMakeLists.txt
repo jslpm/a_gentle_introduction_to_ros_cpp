@@ -139,6 +139,7 @@ add_executable(pubvel src/pubvel.cpp)
 add_executable(subpose src/subpose.cpp)
 add_executable(count src/count.cpp)
 add_executable(once src/once.cpp)
+add_executable(throttle src/throttle.cpp)
 
 
 ## Rename C++ executable without prefix
@@ -160,6 +161,7 @@ target_link_libraries(pubvel ${catkin_LIBRARIES})
 target_link_libraries(subpose ${catkin_LIBRARIES})
 target_link_libraries(count ${catkin_LIBRARIES})
 target_link_libraries(once ${catkin_LIBRARIES})
+target_link_libraries(throttle ${catkin_LIBRARIES})
 
 #############
 ## Install ##
