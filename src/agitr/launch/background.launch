@@ -1,0 +1,10 @@
+<launch>
+	<!--Turtlesim node-->
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim" output="screen"/>
+	
+	<!--Teleope_key node-->
+	<node pkg="turtlesim" type="turtle_teleop_key" name="teleop_key" launch-prefix="xterm -e"/>
+	
+	<!--Change background-->
+	<node pkg="agitr" type="set_bg_color" name="set_bg" output="screen"/>
+</launch>
